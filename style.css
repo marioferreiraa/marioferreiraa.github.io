@@ -1,0 +1,27 @@
+body{
+	background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-36.jpg);
+	background-size: 1709px;
+}
+
+img{
+	
+	width: 18%;
+    margin-left: 41%;
+    margin-top: 10%;
+}
+
+h1{
+	text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h3{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.opacity{
+	background-color: rgba(0,0,0,0.5);
+}
