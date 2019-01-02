@@ -3,7 +3,7 @@ html, body {
     min-height: 100%;
 }
 
-body{
+body.login{
     background: rgb(152,33,165);
     background: -moz-linear-gradient(left, rgba(152,33,165,1) 0%, rgba(125,185,232,1) 100%);
     background: -webkit-linear-gradient(left, rgba(152,33,165,1) 0%,rgba(125,185,232,1) 100%);
@@ -31,6 +31,8 @@ body{
                 text-align: center;
                 margin-top: 50px;
                 button{
+                    cursor: pointer;
+                    transition: ease .3s;
                     outline: none;
                     height: 45px;
                     width: 140px;
@@ -40,6 +42,9 @@ body{
                     background: -moz-linear-gradient(left, rgba(152,33,165,1) 0%, rgba(125,185,232,1) 100%);
                     background: -webkit-linear-gradient(left, rgba(152,33,165,1) 0%,rgba(125,185,232,1) 100%);
                     background: linear-gradient(to right, rgba(152,33,165,1) 0%,rgba(125,185,232,1) 100%);
+                    &:hover{
+                        box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+                    }
                 }
             }
             label{
