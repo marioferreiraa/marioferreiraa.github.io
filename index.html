@@ -1,43 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mário Ferreira</title>
-	<link rel="icon" href="eng.png"/>
-	<style type="text/css">
-		body{
-			background-color: black;
-		}
-		h1{
-			color: white;
-			text-align: center;
-			margin-top: 15%;
-		}
-		.loading{
-			margin-left: 42%;
-		}
-		@media(max-width: 992px){
-			.loading{
-				margin-left: 40%;
-			}	
-		}
-		@media(max-width: 769px){
-			.loading{
-				margin-left: 37%;
-			}	
-		}
-		@media(max-width: 420px){
-			.loading{
-				margin-left: 26%;
-			}	
-		}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sign in</title>
 
-	</style>
-</head>
-<body>
-	<div class="container">
-		<h1>Site em desenvolvimento...</h1>
-		<img class="loading" src="loading.gif">
-	</div>
-</body>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <section id="login">
+            <div class="box-login">
+                <form id="formLogin" action="">
+                    <div class="form-group">
+                        <input type="text" name="input-username" id="username" class="" required>
+                        <label>enter your email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="input-password" id="password" class="" required>
+                        <label>enter your password</label>
+                    </div>
+                    <div class="form-group button-login">
+                        <button class="btn-login">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/script/script.js"></script>
+    </body>
 </html>
