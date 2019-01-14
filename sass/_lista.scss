@@ -4,6 +4,25 @@ html, body {
 }
 
 body.lista{
-    background-color: #000;
+    background: linear-gradient(to right, #24c482 0%,#23b6c2 100%);
     font-family: 'lato', sans-serif;
+    .container.principal-div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .session-table{
+            width: 100%;
+            .header-list{
+                color: #FFF;
+                text-align: center;
+                border-bottom: 3px solid #FFF;
+            }
+            .row-list{
+                color: #FFF;
+                text-align: center;
+            }
+        }
+    }
+
 }
